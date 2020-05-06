@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "39866975226",
+    "firebase_url": "https://naveraihackathon.firebaseio.com",
+    "project_id": "naveraihackathon",
+    "storage_bucket": "naveraihackathon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:39866975226:android:a0a0d5d1677b733b431a43",
+        "android_client_info": {
+          "package_name": "com.non.sleep.naver.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "39866975226-48du0ru70j9pv7ejqv3cntbs6t0tggsc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.non.sleep.naver.android",
+            "certificate_hash": "0539a298123ec30132071df52db6b33f1525184e"
+          }
+        },
+        {
+          "client_id": "39866975226-1p6ajlm3m1goab9479aglg7mgufiur6a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMZ66FP9nh07kHs0gcMI2ubP2ZmV7F7MI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "39866975226-1p6ajlm3m1goab9479aglg7mgufiur6a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f6f6f6"
+    tools:context=".src.shopping.ShoppingActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:background="@drawable/bg_round"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="47.5dp"
+            android:layout_marginTop="72dp"
+            android:layout_marginBottom="41dp"
+            android:src="@drawable/ic_shop_menu" />
+
+
+        <LinearLayout
+            android:id="@+id/linear_menu_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/bg_gray"
+            android:orientation="horizontal"
+            android:padding="33dp"
+            android:visibility="invisible">
+
+            <TextView
+                android:id="@+id/shop_tv_menu1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:lineSpacingExtra="13sp"
+                android:text="돌솥비빔밥정식(1)"
+                android:textColor="#000000"
+                android:textSize="32.5sp" />
+
+            <TextView
+                android:id="@+id/shop_tv_price1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="13sp"
+                android:text="1,000원"
+                android:textColor="#000000"
+                android:textSize="32.5sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_menu_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/bg_gray"
+            android:orientation="horizontal"
+            android:padding="30dp"
+            android:visibility="invisible">
+
+            <TextView
+                android:id="@+id/shop_tv_menu2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:lineSpacingExtra="13sp"
+                android:text="돌솥비빔밥정식(1)"
+                android:textColor="#000000"
+                android:textSize="32.5sp" />
+
+            <TextView
+                android:id="@+id/shop_tv_price2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="13sp"
+                android:text="1,000원"
+                android:textColor="#000000"
+                android:textSize="32.5sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_menu_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/bg_gray"
+            android:orientation="horizontal"
+            android:padding="30dp"
+            android:visibility="invisible">
+
+            <TextView
+                android:id="@+id/shop_tv_menu3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:lineSpacingExtra="13sp"
+                android:text="돌솥비빔밥정식(1)"
+                android:textColor="#000000"
+                android:textSize="32.5sp" />
+
+            <TextView
+                android:id="@+id/shop_tv_price3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="13sp"
+                android:text="1,000원"
+                android:textColor="#000000"
+                android:textSize="32.5sp" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/img_more_order" />
+
+
+        <!--        <androidx.recyclerview.widget.RecyclerView-->
+        <!--            android:id="@+id/shopping_rv"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />-->
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="130dp">
+
+            <ImageView
+                android:id="@+id/shopping_yes_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="customOnClick"
+                android:src="@drawable/btn_yes" />
+
+            <ImageView
+                android:id="@+id/shopping_no_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="customOnClick"
+                android:src="@drawable/brn_no" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/activity_main_iv_recording"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="end|bottom"
+        android:layout_marginEnd="-5dp"
+        android:layout_marginBottom="100dp"
+        android:onClick="customOnClick"
+        android:src="@drawable/ic_speak" />
+
+
+</FrameLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f6f6f6"
+    tools:context=".src.recommend_yes.RecommendYesActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:background="@drawable/bg_round"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/food_age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="22.7sp"
+            android:text="60대 추천 메뉴"
+            android:textColor="#000000"
+            android:textSize="56.7sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/iv_menu"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/img_sample" />
+
+
+        <TextView
+            android:id="@+id/food_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:lineSpacingExtra="31.3sp"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            tools:text="돌솥 비빔밥" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/ic_text_select" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="80dp">
+
+            <ImageView
+                android:id="@+id/recommend_iv_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="customOnClick"
+                android:src="@drawable/btn_yes" />
+
+            <ImageView
+                android:id="@+id/recommend_iv_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="customOnClick"
+                android:src="@drawable/brn_no" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/yes_iv_recording"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="end|bottom"
+        android:layout_marginEnd="-5dp"
+        android:layout_marginBottom="100dp"
+        android:onClick="customOnClick"
+        android:src="@drawable/ic_speak" />
+</FrameLayout>

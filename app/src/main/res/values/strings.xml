@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">키오스크</string>
+    <string name="loading">로딩중입니다.</string>
+    <string name="network_error">네트워크 연결이 원활하지 않습니다.</string>
+
+    <string name="naverId">g0fd605ajk</string>
+    <string name="naverKey">ZgiGkHGhY3kNc5ulmYD70rkKAM3FeGnONBZpjN63</string>
+
+    <string name="str_start">Start</string>
+    <string name="str_stop">Stop</string>
+    <string name="title_activity_pay_finish">PayFinishActivity</string>
+</resources>
